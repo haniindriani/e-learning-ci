@@ -1,0 +1,15 @@
+body,
+html {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.cari {
+	padding-right: 22rem;
+}
+
+.background {
+	background-size: cover;
+	height: 100%;
+	border-radius: 0px !important;
+}
