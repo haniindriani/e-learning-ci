@@ -38,12 +38,12 @@
                     <div class="card" style="width: 16rem;">
                         <img src="<?= base_url('assets/') ?>img/thumbnail-kelas-online-laravel.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <small class="text-info">
+                            <!-- <small class="text-info">
                                 <i class="fa fa-book"></i> 45 Modul
                             </small>|
                             <small class="text-danger">
                                 <i class="fa fa-video"></i> 15 jam++
-                            </small> <br>
+                            </small> <br> -->
                             <strong>Rp 350.000</strong>
                             <a href="<?= base_url('home/pembelajaran') ?>" class="btn btn-outline-dark btn-block mt-5"><i class="fa fa-search"></i>
                                 LIHAT

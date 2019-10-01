@@ -43,4 +43,20 @@ class Home extends CI_Controller
 		$this->load->view('home/keranjang');
 		$this->load->view('templates/footer');
 	}
+
+	public function checkout()
+	{
+		$data['judul'] = "Checkout";
+		$this->load->view('templates/header', $data);
+		$this->load->view('home/payment');
+		$this->load->view('templates/footer');
+	}
+
+	public function materi(Type $var = null)
+	{
+		$data['judul'] = "Materi";
+		$this->load->view('templates/header', $data);
+		$this->load->view('home/materi');
+		$this->load->view('templates/footer');
+	}
 }

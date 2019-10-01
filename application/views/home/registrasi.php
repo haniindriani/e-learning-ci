@@ -1,6 +1,6 @@
 <section class="bg-light py-5">
     <div class="row justify-content-center my-5">
-        <div class="col-md-6 bg-white border">
+        <div class="col-md-6 bg-white border rounded">
             <div class="container py-5 px-5">
                 <h1 class="font-weight-light my-3">Registrasi</h1>
                 <form action="" method="post">
@@ -32,14 +32,13 @@
                             </div>
                         </div>
                     </div>
-
+                    <div class="form-group">
+                        <label for="no">No.Telp</label><br>
+                        <input type="text" class="form-control" id="no" placeholder="Nomor seluler/WhatsApp">
+                    </div>
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" placeholder="Masukkan alamat email yang valid, mis. namasaya@gmail.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="alamat">Alamat</label>
-                        <input type="text" class="form-control" id="alamat" placeholder="Masukkan alamatmu">
                     </div>
                     <div class="form-group">
                         <label for="prov">Provinsi</label>
@@ -57,8 +56,8 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="no">Nomer Seluler/Whatsapp</label><br>
-                        <input type="text" class="form-control" id="no" placeholder="Nomor seluler/WhatsApp">
+                        <label for="alamat">Alamat</label>
+                        <textarea class="form-control" id="alamat" rows="3"></textarea>
                     </div>
                     <div class="form-group">
                         <label for="sandi">Kata Sandi</label>

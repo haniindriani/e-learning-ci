@@ -22,7 +22,8 @@
                         <th>Mingguan</th>
                         <th>Rp 40.000</th>
                         <th>
-                            <a href="" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Hapus</a>
+                            <a href="" class="btn btn-danger btn-sm"><i class="fa fa-times-circle"></i> Batalkan</a>
+                            <a href="<?= base_url('home/checkout') ?>" class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i> Chekout</a>
                         </th>
                     </tr>
                 <?php endwhile; ?>

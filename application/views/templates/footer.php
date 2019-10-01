@@ -8,19 +8,19 @@
             <div class="col-md-6">
                 <h4>Contact Us</h4>
                 <div class="media">
-                    <i class="fa fa-map-marker-alt fa-2x"></i>
+                    <i class="fa fa-map-marker-alt fa-lg"></i>
                     <div class="media-body ml-2">
                         <p class="">JL Jayaraga. Singaparna kab Tasikmalaya </p>
                     </div>
                 </div>
                 <div class="media">
-                    <i class="fa fa-phone-alt fa-2x"></i>
+                    <i class="fa fa-phone-alt fa-lg"></i>
                     <div class="media-body ml-2">
                         <p class="">+6289652833699 </p>
                     </div>
                 </div>
                 <div class="media">
-                    <i class="fa fa-envelope fa-2x"></i>
+                    <i class="fa fa-envelope fa-lg"></i>
                     <div class="media-body ml-2">
                         <p class="">haniart31@gmail.com </p>
                     </div>
