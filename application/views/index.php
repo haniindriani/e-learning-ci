@@ -1,4 +1,4 @@
-<div class="jumbotron background-index-1">
+<div class="jumbotron background" style="background-image:url('<?= base_url('assets/') ?>img/bg-home.jpg')">
     <div class="container">
         <div class="row justify-content-center text-center my-3 text-white">
             <div class="col-md-10">

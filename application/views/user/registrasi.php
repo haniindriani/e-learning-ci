@@ -66,7 +66,7 @@
                     <button type="submit" class="btn btn-block btn-info">REGISTRASI</button>
                 </form>
                 <div class="my-2 float-right">
-                    Sudah punya akun? <a href="<?= base_url('home/login') ?>" class="font-weight-bold text-dark">Login
+                    Sudah punya akun? <a href="<?= base_url('user/login') ?>" class="font-weight-bold text-dark">Login
                         disini</a>
                 </div>
             </div>

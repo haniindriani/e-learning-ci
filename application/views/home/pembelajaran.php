@@ -83,10 +83,49 @@
             <div class="col-md-12 bg-white py-5 px-5 border">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
-                        <span><a href="<?= base_url('home/materi') ?>" class="text-dark">Menginstal Laravel</a></span>
+                        <span><a href="<?= base_url('home/materi') ?>" class="text-info font-weight-bold"><i class="fa fa-play-circle"></i> Pendahuluan Pemograman Web Front End</a></span>
+                        <span class="float-right"><i class="fa fa-video"></i> 08:31</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span><a href="<?= base_url('home/materi') ?>" class="text-info font-weight-bold"><i class="fa fa-play-circle"></i> Pendahuluan Pemograman Web Front End</a></span>
+                        <span class="float-right"><i class="fa fa-video"></i> 08:31</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span><a href="<?= base_url('home/materi') ?>" class="text-info font-weight-bold"><i class="fa fa-play-circle"></i> Pendahuluan Pemograman Web Front End</a></span>
+                        <span class="float-right"><i class="fa fa-video"></i> 08:31</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span><a href="<?= base_url('home/materi') ?>" class="text-info font-weight-bold"><i class="fa fa-play-circle"></i> Pendahuluan Pemograman Web Front End</a></span>
+                        <span class="float-right"><i class="fa fa-video"></i> 08:31</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span><a href="<?= base_url('home/materi') ?>" class="text-info font-weight-bold"><i class="fa fa-play-circle"></i> Pendahuluan Pemograman Web Front End</a></span>
+                        <span class="float-right"><i class="fa fa-video"></i> 08:31</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span><a href="<?= base_url('home/materi') ?>" class="text-info font-weight-bold"><i class="fa fa-play-circle"></i> Pendahuluan Pemograman Web Front End</a></span>
+                        <span class="float-right"><i class="fa fa-video"></i> 08:31</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span><a href="<?= base_url('home/materi') ?>" class="text-info font-weight-bold"><i class="fa fa-play-circle"></i> Pendahuluan Pemograman Web Front End</a></span>
+                        <span class="float-right"><i class="fa fa-video"></i> 08:31</span>
+                    </li>
+                    <li class="list-group-item">
+                        <span><a href="<?= base_url('home/materi') ?>" class="text-info font-weight-bold"><i class="fa fa-play-circle"></i> Pendahuluan Pemograman Web Front End</a></span>
                         <span class="float-right"><i class="fa fa-video"></i> 08:31</span>
                     </li>
                 </ul>
+                <div class="my-3 float-right">
+                    <a class="btn btn-danger" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-share"></i> Bagikan
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item text-primary" href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                        <a class="dropdown-item text-danger" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a class="dropdown-item text-info" href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -96,18 +135,20 @@
     <h2 class="text-center my-5">Biaya Paket</h2>
     <div class="card-deck">
         <div class="card">
-            <div class="card-body my-3 mx-3">
+            <div class="card-body my-3 mx-3 text-center">
                 <h3 class="font-weight-light">Mingguan</h5>
                     <h1>Rp 40.000,00</h1>
-                    <hr>
+                    <!-- <hr>
+                    <p>Paket lebih hemat</p> -->
                     <a href="" class="btn btn-block btn-info"><i class="fa fa-shopping-cart"></i> Tambahkan</a>
             </div>
         </div>
         <div class="card">
-            <div class="card-body my-3 mx-3">
+            <div class="card-body my-3 mx-3 text-center">
                 <h3 class="font-weight-light">Bulanan</h3>
                 <h1>Rp 250.000,00</h1>
-                <hr>
+                <!-- <hr>
+                <p>Paket lebih untung</p> -->
                 <a href="" class="btn btn-block btn-info"><i class="fa fa-shopping-cart"></i> Tambahkan</a>
             </div>
         </div>

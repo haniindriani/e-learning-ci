@@ -38,7 +38,7 @@
         </nav> -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom font-weight-bold">
             <div class="container">
-                <a class="navbar-brand" href="<?= base_url('home') ?>">
+                <a class="navbar-brand" href="<?= base_url('') ?>">
                     <img src="<?= base_url('assets/') ?>img/logo-rekape.png" width="130">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,9 +65,9 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="nav-item nav-link px-2" href="<?= base_url('home/keranjang') ?>">KERANJANG</a>
-                        <a class="nav-item btn btn-info" href="<?= base_url('home/login') ?>">LOGIN/REGISTRASI</a>
-                        <!-- <div class="dropdown">
+                        <a class="nav-item nav-link px-2" href="<?= base_url('user/keranjang') ?>">KERANJANG</a>
+                        <a class="nav-item btn btn-info" href="<?= base_url('user/login') ?>">LOGIN/REGISTRASI</a>
+                        <div class="dropdown">
                             <a class="nav-item nav-link border-left px-4" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 HANI INDRIANI
                                 <img src="<?= base_url('assets/') ?>img/avatar.png" alt="" width="30" class="rounded-circle" style="margin-top:-10px;">
@@ -75,9 +75,9 @@
 
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item" href="<?= base_url('user/dashboard') ?>"><i class=" fa fa-user"></i> Akunku</a>
-                                <a class="dropdown-item" href="<?= base_url('logout ') ?>"><i class=" fa fa-sign-out-alt"></i> Logout</a>
+                                <a class="dropdown-item" href="<?= base_url('user/logout') ?>"><i class=" fa fa-sign-out-alt"></i> Logout</a>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>

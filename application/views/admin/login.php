@@ -4,8 +4,8 @@
             <h1 class="font-weight-light my-3">Login</h1>
             <form action="<?= base_url('user/dashboard') ?>" method="post">
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email">
+                    <label for="email">Username</label>
+                    <input type="text" class="form-control" id="email">
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
@@ -13,10 +13,6 @@
                 </div>
                 <button type="submit" class="btn btn-block btn-info">LOGIN</button>
             </form>
-            <div class="my-2">
-                Belum punya akun? <a href="<?= base_url('home/registrasi') ?>" class="font-weight-bold text-dark">Registrasi
-                    disini</a>
-            </div>
         </div>
     </div>
 </section>

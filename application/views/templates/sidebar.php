@@ -5,6 +5,6 @@
             <nav class=" nav flex-column ml-3">
                 <h4>Hani Indriani</h4>
                 <p>haniart31@gmail.com</p>
-                <a href="<?= base_url('logout') ?>" class="btn btn-info "> <i class="fa fa-sign-out-alt"></i> LOGOUT</a>
+                <a href="<?= base_url('user/logout') ?>" class="btn btn-info "> <i class="fa fa-sign-out-alt"></i> LOGOUT</a>
             </nav>
         </div>
